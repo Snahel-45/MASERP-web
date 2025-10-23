@@ -1,0 +1,74 @@
+ 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
+
+# Basic .htaccess for testing
+Options +FollowSymLinks
+RewriteEngine On
+
+# Deny directory listing
+Options -Indexes
+
+
+# Deny directory listing
+Options -Indexes
+
+# Block access to the .htaccess file itself
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Block access to sensitive files (optional, based on the files in your project)
+<FilesMatch "\.(env|json|ini|log|sh|bash|bak|sql)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# Allow access to static files (HTML, CSS, JS, images)
+<FilesMatch "\.(html|htm|css|js|jpg|jpeg|png|gif|svg|ico)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
+
+# Redirect HTTP to HTTPS (Optional: If you want HTTPS enforcement)
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# Protect against clickjacking
+<IfModule mod_headers.c>
+Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
+
+# Protect against cross-site scripting (XSS) attacks
+<IfModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Enable HTTP Strict Transport Security (HSTS)
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Block specific user agents (scrapers, bots)
+SetEnvIfNoCase User-Agent "badbot" bad_bot
+SetEnvIfNoCase User-Agent "bot" bad_bot
+Deny from env=bad_bot
+
+
+# Prevent file injection attacks (block execution of non-static files)
+RewriteCond %{REQUEST_URI} \.(php|env|sql|bak|sh|ini|log)$ [NC]
+RewriteRule ^ - [F,L]
+
+
+

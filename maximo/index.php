@@ -1,0 +1,991 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MASERP Technical Services LLP</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+       <a href="../main/index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+  <img src="../maximo/img/logo2.png" alt="Logo" class="logoraw" style="width: 180px; height: 130px;">
+</a>
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="../main/index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+         
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">MAXIMO SERVICES</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">AssetIQ Solutions LLP</a>
+                        <a href="quote.html" class="dropdown-item">Maximo Functional and Technical Work
+                        </a>
+                        <a href="team.html" class="dropdown-item">Maximo Project Management
+                           </a>
+                        <a href="testimonial.html" class="dropdown-item"> Maximo Upgrade Services and Support
+                            </a>
+                        <a href="404.html" class="dropdown-item">Maximo Automation Testing
+                            </a>
+                        <a href="404.html" class="dropdown-item">Maximo Functional and Technical Trainings
+                            </a>
+                    </div>
+                </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+
+    <div class=" position-relative" >
+        <img class="img-fluid herorawimg" src="img/raw/rawhero111.jpg" alt="">
+        <div class="owl-carousel-inner">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-10 col-lg-8">
+                        <h1 class="herorawfont text-white animated slideInDown">Welcome to <br> MASERP Technical Services LLP!</h1>
+                        <p class="fs-5 fw-medium text-white mb-4 pb-3">MASERP Technical Services LLP specializes in providing comprehensive services for IBM Maximo, the premier enterprise asset management platform. </p>
+                        <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Carousel Start -->
+  
+    <!-- Carousel End -->
+
+
+    <!-- Feature Start -->
+    <!-- Features Section -->
+<section class="features-section py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-dark">Our Strengths & Advantages</h2>
+
+      <div class="underline mx-auto mt-3" style="width: 80px; height: 3px; background-color: #007bf5;"></div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Feature Box -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-box text-center p-4 rounded-4 shadow-sm bg-white h-100">
+          <div class="icon-wrapper mx-auto mb-3">
+            <img src="img/raw/trust.png" alt="Trusted Services" class="trustlogo">
+          </div>
+          <h5 class="fw-bold text-dark mb-2">Trusted Services</h5>
+          <p class="text-muted mb-0">We are trusted by our clients.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-box text-center p-4 rounded-4 shadow-sm bg-white h-100">
+          <div class="icon-wrapper mx-auto mb-3">
+            <img src="img/raw/customer-service.png" alt="Global Services" class="trustlogo">
+          </div>
+          <h5 class="fw-bold text-dark mb-2">Global Services</h5>
+          <p class="text-muted mb-0">Worldwide Support</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-box text-center p-4 rounded-4 shadow-sm bg-white h-100">
+          <div class="icon-wrapper mx-auto mb-3">
+            <img src="img/raw/customer-review.png" alt="Well Experienced" class="trustlogo">
+          </div>
+          <h5 class="fw-bold text-dark mb-2">Well Experienced</h5>
+          <p class="text-muted mb-0">25+ years of experience</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-box text-center p-4 rounded-4 shadow-sm bg-white h-100">
+          <div class="icon-wrapper mx-auto mb-3">
+            <img src="img/raw/trust.png" alt="Cost Effective" class="trustlogo">
+          </div>
+          <h5 class="fw-bold text-dark mb-2">Cost Effective</h5>
+          <p class="text-muted mb-0">Manage projects efficiently</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.features-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.feature-box {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #eee;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-color: #00f566;
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: #fff3cd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.feature-box:hover .icon-wrapper {
+  background: #f5b400;
+}
+
+.trustlogo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover .trustlogo {
+  transform: scale(1.15);
+}
+
+.underline {
+  border-radius: 2px;
+}
+</style>
+    
+    <!-- Feature Start -->
+
+
+    <!-- About Start -->
+    <!-- About Section -->
+<section class="about-section py-3 position-relative bg-light">
+  <div class="container-fluid px-lg-0 overflow-hidden">
+    <div class="row g-0 align-items-stretch">
+      
+      <!-- Left Image -->
+      <div class="col-lg-6 position-relative about-img wow fadeInLeft" data-wow-delay="0.2s">
+        <img src="https://images.pexels.com/photos/5470453/pexels-photo-5470453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="MASERP Services" class="img-fluid w-100 h-100 object-fit-cover rounded-0">
+        <div class="img-overlay"></div>
+      </div>
+
+      <!-- Right Content -->
+      <div class="col-lg-6 bg-white py-5 px-4 px-lg-5 about-content wow fadeInRight" data-wow-delay="0.4s">
+        <div class="content-wrapper">
+          <h6 class="text-uppercase fw-bold mb-3 text-gradient">Welcome to MASERP Technical Services LLP!</h6>
+          <h2 class="fw-bold mb-4 text-dark display-6">Maximizing Your <span class="highlight">Maximo Experience</span> Worldwide</h2>
+          <p class="text-muted mb-4">
+            MASERP Technical Services LLP provides end-to-end services for IBM Maximo — the industry’s leading enterprise asset management platform. 
+            From functional and technical expertise to upgrades, automation testing, and installation support, we deliver excellence with precision.
+          </p>
+
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="fa fa-check-circle text-gradient me-2"></i>Tailored solutions for your specific needs</li>
+            <li class="mb-2"><i class="fa fa-check-circle text-gradient me-2"></i>Highly experienced SMEs in Maximo services</li>
+            <li><i class="fa fa-check-circle text-gradient me-2"></i>Expertise in Maximo functional and technical work</li>
+          </ul>
+
+          <a href="service.html" class="btn btn-gradient rounded-pill py-3 px-5 mt-3 fw-semibold">
+            Explore More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+    .about-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f7f7 100%);
+  position: relative;
+  overflow: hidden;
+  
+  margin-bottom: -20px; /* pulls next section upward */
+
+}
+
+.about-img {
+  height: 100%;
+  min-height: 350px;
+}
+
+.about-img img {
+  object-fit: cover;
+  height: 100%;
+  
+}
+
+.img-overlay {
+  position: absolute;
+  inset: 0;
+  /* background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(245,180,0,0.2) 100%); */
+  z-index: 1;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #18c12f, #3152f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  color: #00f58f;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #18c12f, #3152f6);
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(245,180,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(90deg, #334bff, #5600f5);
+  box-shadow: 0 6px 20px rgba(245,180,0,0.5);
+}
+
+.list-unstyled li {
+  font-size: 1rem;
+  color: #444;
+}
+
+.content-wrapper {
+  max-width: 580px;
+}
+
+</style>
+    <!-- About End -->
+
+
+  <section class="why-choose-us py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-dark mb-3">Why Choose <span class="text-primary">Us?</span></h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">
+        Transform your asset management processes with <strong>MASERP Technical Services LLP</strong>.
+        Let us help you unlock the full potential of IBM Maximo with our expert-driven solutions.
+      </p>
+      <div class="underline mx-auto mt-3"></div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-user-tie fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Highly Experienced SMEs</h5>
+          <p class="text-muted mb-0">In-depth expertise in Maximo services and implementation.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-cogs fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Tailored Solutions</h5>
+          <p class="text-muted mb-0">Customized services designed to meet your business needs.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-user-cog fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Seamless Project Management</h5>
+          <p class="text-muted mb-0">Smooth and efficient project execution with expert supervision.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-wrench fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Maximo Functional & Technical Expertise</h5>
+          <p class="text-muted mb-0">Advanced customization and development proficiency.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-handshake fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Dedicated Upgrade Support</h5>
+          <p class="text-muted mb-0">Expert guidance during Maximo version migrations.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-robot fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Automation Testing Services</h5>
+          <p class="text-muted mb-0">Ensure stability through advanced automation testing.</p>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-chalkboard-teacher fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Comprehensive Training</h5>
+          <p class="text-muted mb-0">Customized training for Maximo users and administrators.</p>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card h-100 text-center p-4 shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-tools fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Installation Assistance</h5>
+          <p class="text-muted mb-0">End-to-end support for Maximo and MAS 8 installation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <style>
+    .why-choose-us {
+  position: relative;
+  background: #f9fafc;
+}
+
+.why-choose-us .underline {
+  width: 80px;
+  height: 4px;
+  background-color: #0dc0c0;
+  border-radius: 2px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(13, 110, 253, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: background 0.3s;
+}
+
+.feature-card:hover .icon-circle {
+  background: #0dfd95;
+}
+
+.feature-card:hover .icon-circle i {
+  color: #fff;
+}
+
+ </style>
+
+  
+
+
+<!-- Feature Start -->
+<section class="feature-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-0">
+      
+      <!-- Image Section -->
+      <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-delay="0.4s">
+        <div class="feature-img position-relative h-100">
+          <img 
+            src="https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=1470&auto=format&fit=crop" 
+            alt="Maximo Solutions" 
+            class="img-fluid w-100 h-100 rounded-3" 
+            style="object-fit: cover;"
+          />
+          <div class="img-overlay"></div>
+        </div>
+      </div>
+
+      <!-- Text Section -->
+      <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-delay="0.1s">
+        <div class="feature-content p-lg-5 pe-lg-4">
+          <h6 class="text-uppercase fw-bold text-gradient mb-2">MASERP Technical Services LLP</h6>
+          <h1 class="fw-bold mb-4">Our Approach to Maximo Solutions</h1>
+          <p class="text-muted mb-4">
+            Harnessing industry best practices, we deploy Maximo solutions that adhere to the highest standards — 
+            ensuring operational efficiency, scalability, and compliance across your enterprise.
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="d-flex align-items-start feature-item">
+                <div class="icon-circle1 me-3">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div>
+                  <h5 class="fw-semibold mb-1">Specialized Expertise</h5>
+                  <p class="small text-muted mb-0">
+                    Experienced professionals with deep knowledge of Maximo’s functional capabilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="d-flex align-items-start feature-item">
+                <div class="icon-circle1 me-3">
+                  <i class="fas fa-handshake"></i>
+                </div>
+                <div>
+                  <h5 class="fw-semibold mb-1">Customized Solutions</h5>
+                  <p class="small text-muted mb-0">
+                    We tailor every solution to fit your unique operational and business requirements.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="d-flex align-items-start feature-item">
+                <div class="icon-circle1 me-3">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <div>
+                  <h5 class="fw-semibold mb-1">Industry Best Practices</h5>
+                  <p class="small text-muted mb-0">
+                    Implementing Maximo solutions that align with industry-leading standards.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+              <div class="d-flex align-items-start feature-item">
+                <div class="icon-circle1 me-3">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div>
+                  <h5 class="fw-semibold mb-1">Proven Track Record</h5>
+                  <p class="small text-muted mb-0">
+                    Consistent success across multiple Maximo implementation projects globally.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+    /* Section Base */
+.feature-section {
+  background-color: #f9fafc;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient Accent Text */
+.text-gradient {
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+/* Image Overlay Effect */
+.feature-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.feature-img img {
+  transition: transform 0.6s ease;
+}
+
+.feature-img:hover img {
+  transform: scale(1.05);
+}
+
+.img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(24,193,47,0.2), rgba(49,82,246,0.2));
+  border-radius: 10px;
+}
+
+/* Feature Content */
+.feature-content h1 {
+  color: #1a1a1a;
+}
+
+.feature-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Icons */
+.icon-circle1 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #18c12f, #3152f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.icon-circle i {
+  font-size: 1.5rem;
+}
+
+.feature-item:hover .icon-circle {
+  transform: scale(1.1);
+  background: #fff;
+  color: #3152f6;
+  border: 2px solid #18c12f;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .feature-content {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .feature-item {
+    justify-content: center;
+  }
+
+  .feature-img img {
+    border-radius: 12px;
+  }
+}
+
+</style>
+<!-- Feature End -->
+
+    <!-- Feature End -->
+
+<section class="mission-vision-section py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+      <h6 class="text-primary fw-semibold text-uppercase">Driven by Purpose</h6>
+      <h2 class="fw-bold display-6 text-dark">Our Mission & Vision</h2>
+      <div class="underline mx-auto mt-3" style="width: 80px; height: 3px; background-color: #0d6efd;"></div>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+      <!-- Mission -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="mission-vision-box h-100 p-5 rounded-4 shadow-sm bg-white border-start border-4 border-primary position-relative">
+          <div class="icon-wrapper mb-4">
+  <i class="fas fa-bullseye text-primary" style="font-size: 2.5rem;"></i>
+</div>
+          <h3 class="section-title mb-3 text-dark fw-bold">Our Mission</h3>
+          <p class="section-text text-secondary">
+            At <strong>MASERP Technical Services LLP</strong>, our mission is to empower organizations to optimize
+            their asset management processes using IBM Maximo’s full potential. We deliver tailored
+            solutions that enhance operational efficiency, ensuring maximum return on investment and
+            long-term sustainability.
+          </p>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="mission-vision-box h-100 p-5 rounded-4 shadow-sm bg-white border-start border-4 border-warning position-relative">
+          <div class="icon-wrapper mb-4">
+            <i class="fas fa-eye text-warning" style="font-size: 2.5rem;"></i>
+          </div>
+          <h3 class="section-title mb-3 text-dark fw-bold">Our Vision</h3>
+          <p class="section-text text-secondary">
+            Our vision is to be the global leader in <strong>Maximo functional and technical expertise</strong>,
+            helping businesses seamlessly integrate Maximo into their operations. We aim to drive
+            innovation, efficiency, and sustainable growth through intelligent asset management solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: rgba(13, 110, 253, 0.1); /* subtle circle background */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.mission-vision-box:hover .icon-wrapper {
+  background: #0d6efd; /* fill color on hover */
+}
+
+.mission-vision-box:hover .icon-wrapper i {
+  color: #fff; /* white icon when hovered */
+}
+
+.icon-wrapper i {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  transition: color 0.4s ease;
+}
+
+    .mission-vision-section {
+  background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
+}
+
+.mission-vision-box {
+  transition: all 0.4s ease;
+}
+
+.mission-vision-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision-box .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  letter-spacing: 0.5px;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+</style>
+    
+
+    <!-- <section class=" bg-primary text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="py-4 px-4">
+                        <h2 class="section-title mb-3">Looking for a Great Career Move?</h2>
+                        <p class="section-text mb-4">Explore exciting opportunities for growth and development in a dynamic environment.</p>
+                      
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="py-4 px-4">
+                        <h2 class="section-title mb-3">Get in Touch</h2>
+                        <p class="section-text mb-4">Have questions or want to learn more about us? Contact our team, and we'll be happy to assist you.</p>
+                        <a href="#contact-us" class="btn btn-light btn-lg">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    
+
+    <!-- Projects Start -->
+   
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="https://images.pexels.com/photos/3207531/pexels-photo-3207531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Free Quote</h6>
+                        <h1 class="mb-4">Contact Us</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <form method="post" action="mail.php">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                               
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Your Message "></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+   
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Testimonial</h6>
+                <h1 class="mb-4">What Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Pune, Maharashtra, India
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9890361224</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>deepak.s@eamtechs.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="../main/index.html">Home</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+           
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://images.pexels.com/photos/11139595/pexels-photo-11139595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://images.pexels.com/photos/87236/pexels-photo-87236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://images.pexels.com/photos/5470449/pexels-photo-5470449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://cdn.pixabay.com/photo/2019/10/19/22/33/industry-4562396_960_720.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://images.pexels.com/photos/459728/pexels-photo-459728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="https://cdn.pixabay.com/photo/2014/06/21/20/11/power-station-374097_1280.jpg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">  MASERP Technical Services LLP </a>|| All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                      
+                        Designed By <a href="https://www.royinformatics.com">Roy Informatics Pvt. Ltd.</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
